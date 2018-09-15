@@ -1,22 +1,18 @@
-import * as React from 'react';
-import './App.css';
-
-import logo from './logo.svg';
+import * as React from "react";
+import "./App.css";
+import intro from "./images/intro.png";
 
 class App extends React.Component {
-  public render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    public render() {
+        return (
+            <div className="App">
+                <img src={intro} className="App-intro" alt={intro}/>
+                <div className="enter-button">
+                    <button className="btn enter-world">Enter World<i className="glyphicon glyphicon-arrow-right arrow"/></button>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;

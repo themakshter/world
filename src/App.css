@@ -20,9 +20,54 @@
 
 .App-intro {
   font-size: large;
+  height: -webkit-fill-available;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+.enter-world {
+  color: #fff;
+  background-color: #A2BC09;
+  border-color: #A2BC09;
+  margin-top: -190px;
+  font-size: 22px;
+  width: 192px;
+  margin-left: 84px;
+  padding: 14px;
+  font-weight: 900;
+  white-space: normal;
+  display: inline-flex;
+
+}
+@media only screen and (max-width: 900px) {
+  .enter-world {
+    color: #fff;
+    background-color: #A2BC09;
+    border-color: #A2BC09;
+    margin-top: -220px;
+    font-size: 17px;
+    width: 100px;
+    margin-left: 30px;
+    padding: 0px;
+    font-weight: bold;
+    white-space: normal;
+    display: inline-flex;
+  }
+}
+
+.arrow {
+  margin-left: 0px;
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
 }
