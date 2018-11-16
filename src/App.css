@@ -1,6 +1,9 @@
+body{
+  background-color: wheat;
+}
+
 .App {
   text-align: center;
-  background-color: wheat;
   padding-bottom: 17px;
 }
 
@@ -9,9 +12,6 @@
   height: 100%;
   margin-top: 100px;
 }
-
-
-
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
