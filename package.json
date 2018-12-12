@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@pcs4kids/basic-custom-map": "1.0.0",
+    "@pcs4kids/round-the-world": "1.1.0",
     "react": "16.6.1",
     "react-dom": "16.6.1",
     "react-scripts-ts": "4.0.8"
