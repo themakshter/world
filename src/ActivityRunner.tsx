@@ -1,8 +1,10 @@
 import * as RoundTheWorldGame from '@pcs4kids/round-the-world';
 import * as React from 'react';
 
-
-class ActivityRunner extends React.Component {
+interface IProps {
+  onReturnNavigation: () => void;
+}
+class ActivityRunner extends React.Component<IProps> {
 
     constructor(props: any) {
         super(props);
@@ -14,7 +16,10 @@ class ActivityRunner extends React.Component {
 
     public render() {
         return (
+          <div>
             <div id='activity-canvas' />
+              <button onClick={this.props.onReturnNavigation}>Map</button>
+          </div>
         );
     }
 }

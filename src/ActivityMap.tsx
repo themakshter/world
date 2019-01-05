@@ -8,14 +8,18 @@ import monkeyImage from './images/animal-monkey.png';
 import pantherImage from './images/animal-panther.png';
 import mapImage from './images/map.png';
 
-class ActivityMap extends React.Component {
+interface IProps {
+  onActivitySelection: (parameter : any) => void;
+}
+
+class ActivityMap extends React.Component<IProps> {
 
     constructor(props: any) {
         super(props);
     }
 
     public componentDidMount() {
-        const descriptionFunction = () => { alert('clicked') }
+        const activityRunFunction = this.props.onActivitySelection;
         const map = {
             title: 'Fun Island',
             imageSource: mapImage,
@@ -36,7 +40,7 @@ class ActivityMap extends React.Component {
                         width: 50,
                         height: 70
                     },
-                    callbackFunction: descriptionFunction
+                    callbackFunction: activityRunFunction
                 },
                 {
                     name: 'Mischievous Monkey',
@@ -50,7 +54,7 @@ class ActivityMap extends React.Component {
                         width: 50,
                         height: 65
                     },
-                    callbackFunction: descriptionFunction
+                    callbackFunction: activityRunFunction
                 },
                 {
                     name: 'Crafty Cheetah',
@@ -64,7 +68,7 @@ class ActivityMap extends React.Component {
                         width: 70,
                         height: 50
                     },
-                    callbackFunction: descriptionFunction
+                    callbackFunction: activityRunFunction
                 },
                 {
                     name: 'Pristine Panther',
@@ -78,7 +82,7 @@ class ActivityMap extends React.Component {
                         width: 70,
                         height: 50
                     },
-                    callbackFunction: descriptionFunction
+                    callbackFunction: activityRunFunction
                 },
                 {
                     name: 'Baddie Bear',
@@ -92,7 +96,7 @@ class ActivityMap extends React.Component {
                         width: 70,
                         height: 50
                     },
-                    callbackFunction: descriptionFunction
+                    callbackFunction: activityRunFunction
                 }
             ]
         }
