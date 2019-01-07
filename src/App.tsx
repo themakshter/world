@@ -1,19 +1,38 @@
 import * as React from 'react';
+import ActivityManager from './ActivityManager';
 import './App.css';
-import logo from './images/world-logo.png';
+import WelcomeScreen from './WelcomeScreen';
 
-class App extends React.Component {
-    public render() {
-        return (
-            <div className='App'>
-                <img src={logo} className='App-logo' alt={logo} />
-                <div className='enter-button'>
-                    <button className='btn enter-world'>Enter World
-        <i className='glyphicon glyphicon-arrow-right arrow' /></button>
-                </div>
-            </div>
-        );
-    }
+interface IState {
+  hasEnteredWorld: boolean;
+}
+
+class App extends React.Component<any, IState> {
+
+  constructor(props: any) {
+    super(props);
+    this.handleEnterWorldClick = this.handleEnterWorldClick.bind(this);
+    this.state = { hasEnteredWorld: false };
+
+  }
+
+  private handleEnterWorldClick() {
+    this.setState({ hasEnteredWorld: true });
+  }
+
+  public render() {
+    const isInWorld = this.state.hasEnteredWorld
+    return (
+      <div className='App'>
+        {!isInWorld &&
+          <WelcomeScreen onEnteringWorld={this.handleEnterWorldClick} />
+        }
+        {isInWorld &&
+          <ActivityManager />
+        }
+      </div>
+    );
+  }
 }
 
 export default App;
