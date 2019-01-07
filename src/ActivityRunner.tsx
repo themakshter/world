@@ -12,8 +12,12 @@ class ActivityRunner extends React.Component<IProps> {
     super(props);
   }
 
-  public componentDidMount() {
+  private runActivity() {
     RoundTheWorldGame.createGameInDiv('activity-canvas');
+  }
+
+  public componentDidMount() {
+    this.runActivity();
   }
 
   public render() {
