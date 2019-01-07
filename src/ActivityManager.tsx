@@ -26,13 +26,15 @@ class ActivityManager extends React.Component<any, IState> {
 
     public render() {
         const currentMode = this.state.mode;
+        const activityComponentWidth = window.screen.availWidth * 0.60;
+        const activityComponentHeight = activityComponentWidth * 0.5625;
         return (
           <div>
             {currentMode === 'map' &&
-              <ActivityMap onActivitySelection={this.handleActivitySelection} />
+              <ActivityMap onActivitySelection={this.handleActivitySelection} width={activityComponentWidth} height={activityComponentHeight} />
             }
             { currentMode === 'activity' &&
-              <ActivityRunner onReturnNavigation={this.handleMapNavigation} />
+              <ActivityRunner onReturnNavigation={this.handleMapNavigation} width={activityComponentWidth} height={activityComponentHeight} />
             }
           </div>
         );

@@ -13,10 +13,10 @@ class WelcomeScreen extends React.Component<IProps> {
 
   public render() {
     return (
-      <div className='App'>
-        <img src={logo} className='App-logo' alt={logo} />
+      <div>
+        <img src={logo} className='app-logo' alt={logo} />
         <div className='enter-button'>
-          <button onClick={this.props.onEnteringWorld} className='btn enter-world'>
+          <button onClick={this.props.onEnteringWorld} className='btn pcs4kids-world-btn enter-world'>
             Enter World
             <i className='glyphicon glyphicon-arrow-right arrow' />
           </button>

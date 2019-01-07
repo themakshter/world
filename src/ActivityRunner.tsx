@@ -3,25 +3,33 @@ import * as React from 'react';
 
 interface IProps {
   onReturnNavigation: () => void;
+  width: number;
+  height: number;
 }
 class ActivityRunner extends React.Component<IProps> {
 
-    constructor(props: any) {
-        super(props);
-    }
+  constructor(props: any) {
+    super(props);
+  }
 
-    public componentDidMount() {
-      RoundTheWorldGame.createGameInDiv('activity-canvas');
-    }
+  public componentDidMount() {
+    RoundTheWorldGame.createGameInDiv('activity-canvas');
+  }
 
-    public render() {
-        return (
-          <div>
-            <div id='activity-canvas' />
-              <button onClick={this.props.onReturnNavigation}>Map</button>
-          </div>
-        );
-    }
+  public render() {
+    const dimensionsStyle = {
+      width: this.props.width,
+      height: this.props.height
+    };
+    return (
+      <div>
+        <div id='activity-canvas' style={dimensionsStyle} />
+        <br />
+        <br />
+        <button className='btn pcs4kids-world-btn' onClick={this.props.onReturnNavigation}>Map</button>
+      </div>
+    );
+  }
 }
 
 export default ActivityRunner;
