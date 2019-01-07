@@ -23,7 +23,7 @@ class App extends React.Component<any, IState> {
   public render() {
     const isInWorld = this.state.hasEnteredWorld
     return (
-      <div className='App'>
+      <div className='app'>
         {!isInWorld &&
           <WelcomeScreen onEnteringWorld={this.handleEnterWorldClick} />
         }

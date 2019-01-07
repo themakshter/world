@@ -10,6 +10,8 @@ import mapImage from './images/map.png';
 
 interface IProps {
   onActivitySelection: (parameter : any) => void;
+  width: number;
+  height: number;
 }
 
 class ActivityMap extends React.Component<IProps> {
@@ -105,8 +107,9 @@ class ActivityMap extends React.Component<IProps> {
 
 
     public render() {
+
         return (
-            <svg id='activity-map' height='500' width='750' />
+            <svg id='activity-map' width={this.props.width} height={this.props.height} />
         );
     }
 }

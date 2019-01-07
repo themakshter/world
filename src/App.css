@@ -2,15 +2,14 @@ body{
   background-color: wheat;
 }
 
-.App {
+.app {
   text-align: center;
-  padding-bottom: 17px;
+  margin-top: 5%;
 }
 
-.App-logo {
+.app-logo {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 100%;
-  margin-top: 100px;
 }
 
 @keyframes App-logo-spin {
@@ -18,19 +17,20 @@ body{
   to { transform: rotate(360deg); }
 }
 
-
 .enter-world {
-  color: #fff;
-  background-color: #A2BC09;
-  border-color: #A2BC09;
-  font-size: 19px;
   width: 120px;
-  font-weight: 900;
   white-space: normal;
   display: inline-flex;
   position: relative;
   border-radius: 20px;
+}
 
+.pcs4kids-world-btn{
+  color: #fff;
+  background-color: #A2BC09;
+  border-color: #A2BC09;
+  font-size: 19px;
+  font-weight: 900;
 }
 
 .arrow {
@@ -48,6 +48,8 @@ body{
 #activity-canvas{
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-  height: 800px;
+}
+
+#activity-map{
+  border-radius: 10px;
 }
