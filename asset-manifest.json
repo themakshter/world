@@ -1,9 +1,9 @@
 {
-  "main.css": "/world/static/css/main.642cacc9.chunk.css",
-  "main.js": "/world/static/js/main.6e4b4e35.chunk.js",
-  "main.js.map": "/world/static/js/main.6e4b4e35.chunk.js.map",
-  "static/js/1.cd703b76.chunk.js": "/world/static/js/1.cd703b76.chunk.js",
-  "static/js/1.cd703b76.chunk.js.map": "/world/static/js/1.cd703b76.chunk.js.map",
+  "main.css": "/world/static/css/main.0d1670de.chunk.css",
+  "main.js": "/world/static/js/main.41f89db4.chunk.js",
+  "main.js.map": "/world/static/js/main.41f89db4.chunk.js.map",
+  "static/js/1.e918cc0e.chunk.js": "/world/static/js/1.e918cc0e.chunk.js",
+  "static/js/1.e918cc0e.chunk.js.map": "/world/static/js/1.e918cc0e.chunk.js.map",
   "runtime~main.js": "/world/static/js/runtime~main.0ae1b2e3.js",
   "runtime~main.js.map": "/world/static/js/runtime~main.0ae1b2e3.js.map",
   "static/media/world-logo.png": "/world/static/media/world-logo.8a798987.png",
@@ -13,8 +13,8 @@
   "static/media/animal-panther.png": "/world/static/media/animal-panther.7df508ee.png",
   "static/media/map.png": "/world/static/media/map.00d0fac0.png",
   "static/media/animal-bear.png": "/world/static/media/animal-bear.cbfe55b8.png",
-  "static/css/main.642cacc9.chunk.css.map": "/world/static/css/main.642cacc9.chunk.css.map",
+  "static/css/main.0d1670de.chunk.css.map": "/world/static/css/main.0d1670de.chunk.css.map",
   "index.html": "/world/index.html",
-  "precache-manifest.e985c6eabe14f8280880e8c521d5c59b.js": "/world/precache-manifest.e985c6eabe14f8280880e8c521d5c59b.js",
+  "precache-manifest.042dc94a556734d125e1b7baea0758d6.js": "/world/precache-manifest.042dc94a556734d125e1b7baea0758d6.js",
   "service-worker.js": "/world/service-worker.js"
 }
