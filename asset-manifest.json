@@ -1,0 +1,20 @@
+{
+  "main.css": "/world/static/css/main.642cacc9.chunk.css",
+  "main.js": "/world/static/js/main.6e4b4e35.chunk.js",
+  "main.js.map": "/world/static/js/main.6e4b4e35.chunk.js.map",
+  "static/js/1.cd703b76.chunk.js": "/world/static/js/1.cd703b76.chunk.js",
+  "static/js/1.cd703b76.chunk.js.map": "/world/static/js/1.cd703b76.chunk.js.map",
+  "runtime~main.js": "/world/static/js/runtime~main.0ae1b2e3.js",
+  "runtime~main.js.map": "/world/static/js/runtime~main.0ae1b2e3.js.map",
+  "static/media/world-logo.png": "/world/static/media/world-logo.8a798987.png",
+  "static/media/animal-cheetah.png": "/world/static/media/animal-cheetah.e6bb236a.png",
+  "static/media/animal-giraffe.png": "/world/static/media/animal-giraffe.284383c4.png",
+  "static/media/animal-monkey.png": "/world/static/media/animal-monkey.0c2b888c.png",
+  "static/media/animal-panther.png": "/world/static/media/animal-panther.7df508ee.png",
+  "static/media/map.png": "/world/static/media/map.00d0fac0.png",
+  "static/media/animal-bear.png": "/world/static/media/animal-bear.cbfe55b8.png",
+  "static/css/main.642cacc9.chunk.css.map": "/world/static/css/main.642cacc9.chunk.css.map",
+  "index.html": "/world/index.html",
+  "precache-manifest.e985c6eabe14f8280880e8c521d5c59b.js": "/world/precache-manifest.e985c6eabe14f8280880e8c521d5c59b.js",
+  "service-worker.js": "/world/service-worker.js"
+}
