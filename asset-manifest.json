@@ -1,7 +1,7 @@
 {
   "main.css": "/world/static/css/main.7d400437.chunk.css",
-  "main.js": "/world/static/js/main.b5e8acab.chunk.js",
-  "main.js.map": "/world/static/js/main.b5e8acab.chunk.js.map",
+  "main.js": "/world/static/js/main.9bd394d8.chunk.js",
+  "main.js.map": "/world/static/js/main.9bd394d8.chunk.js.map",
   "static/css/1.e82e6580.chunk.css": "/world/static/css/1.e82e6580.chunk.css",
   "static/js/1.c32dd536.chunk.js": "/world/static/js/1.c32dd536.chunk.js",
   "static/js/1.c32dd536.chunk.js.map": "/world/static/js/1.c32dd536.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/animal-panther.png": "/world/static/media/animal-panther.7df508ee.png",
   "static/media/map.png": "/world/static/media/map.00d0fac0.png",
   "static/media/animal-bear.png": "/world/static/media/animal-bear.cbfe55b8.png",
-  "static/css/main.7d400437.chunk.css.map": "/world/static/css/main.7d400437.chunk.css.map",
   "static/css/1.e82e6580.chunk.css.map": "/world/static/css/1.e82e6580.chunk.css.map",
+  "static/css/main.7d400437.chunk.css.map": "/world/static/css/main.7d400437.chunk.css.map",
   "index.html": "/world/index.html",
-  "precache-manifest.96b92226a7bfb9a961436e1cf605b2dc.js": "/world/precache-manifest.96b92226a7bfb9a961436e1cf605b2dc.js",
+  "precache-manifest.17848f11a208d8071fe5905677a09aa0.js": "/world/precache-manifest.17848f11a208d8071fe5905677a09aa0.js",
   "service-worker.js": "/world/service-worker.js"
 }
