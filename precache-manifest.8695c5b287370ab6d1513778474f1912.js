@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/world/static/media/animal-bear.cbfe55b8.png"
   },
   {
-    "revision": "9bd394d85231d8ac8674",
+    "revision": "d543d35a99d1d666964e",
     "url": "/world/static/css/main.7d400437.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/world/static/media/world-logo.8a798987.png"
   },
   {
-    "revision": "9bd394d85231d8ac8674",
-    "url": "/world/static/js/main.9bd394d8.chunk.js"
+    "revision": "d543d35a99d1d666964e",
+    "url": "/world/static/js/main.d543d35a.chunk.js"
   },
   {
     "revision": "e6bb236a9844a468ccfb66db406abcbd",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/world/static/css/1.e82e6580.chunk.css"
   },
   {
-    "revision": "b59ae7463ba5f4492445fc3f6a1f74e0",
+    "revision": "93179c2d4e2d9daacab844f1ea0684b2",
     "url": "/world/index.html"
   }
 ];
